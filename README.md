@@ -5,7 +5,7 @@ Ez a projekt egy egyszerű, böngészőben futtatható vasútépítő játék, a
 ## 🌐 Elérhető élő demó
 
 A projekt élő verziója megtekinthető a GitHub Pages-en keresztül:
-👉 **[https://felhasznalonev.github.io/projekt-neve](https://felhasznalonev.github.io/projekt-neve)**
+👉 **[https://burjannorbi.github.io/railways-html-css-js/](https://burjannorbi.github.io/railways-html-css-js/)**
 
 ## Fő funkciók
 
