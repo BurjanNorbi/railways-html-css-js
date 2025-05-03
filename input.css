@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	h1 {
+		@apply text-4xl font-bold;
+	}
+
+	h2 {
+		@apply text-3xl font-semibold;
+	}
+
+	h3 {
+		@apply text-2xl font-medium;
+	}
+
+	p {
+		@apply mt-2 mb-2;
+	}
+
+	.context-menu {
+		display: none;
+	}
+
+	.toplist {
+		@apply border-4 border-[#DCC48F] p-1;
+	}
+
+	.tile {
+		@apply aspect-square bg-no-repeat bg-center p-0;
+		background-size: 100% 100%;
+		/* @apply aspect-square bg-cover w-[20%] h-[20%]; */
+	}
+
+	.easy {
+		@apply w-[20%] h-[20%];
+	}
+
+	.hard {
+		@apply w-[14.28571429571429%] h-[14.28571428571429%];
+	}
+
+	.tile-empty {
+		@apply bg-[url(./pics/tiles/empty.png)];
+	}
+	
+	.tile-oasis {
+		@apply bg-[url(./pics/tiles/oasis.png)];
+	}
+
+	/* straight rails */
+	.tile-rail-v {
+		@apply bg-[url(./pics/tiles/straight_rail.png)];
+	}
+
+	.tile-rail-h {
+		@apply bg-[url(./pics/tiles/straight_rail.png)] transform rotate-90;
+	}
+
+	/* bridge rails */
+	.tile-bridge-rail-v {
+		@apply bg-[url(./pics/tiles/bridge_rail.png)];
+	}
+
+	.tile-bridge-rail-h {
+		@apply bg-[url(./pics/tiles/bridge_rail.png)] transform rotate-90;
+	}
+
+	/* bridges */
+	.tile-bridge-v {
+		@apply bg-[url(./pics/tiles/bridge.png)];
+	}
+
+	.tile-bridge-h {
+		@apply bg-[url(./pics/tiles/bridge.png)] transform rotate-90;
+	}
+
+	/* mountains */
+	.tile-mountain-ne {
+		@apply bg-[url(./pics/tiles/mountain.png)] transform rotate-[-90deg];
+	}
+
+	.tile-mountain-nw {
+		@apply bg-[url(./pics/tiles/mountain.png)] transform rotate-180;
+	}
+
+	.tile-mountain-se {
+		@apply bg-[url(./pics/tiles/mountain.png)];
+	}
+
+	.tile-mountain-sw {
+		@apply bg-[url(./pics/tiles/mountain.png)] transform rotate-90;
+	}
+
+	/* mountain rails */
+	.tile-mountain-rail-ne {
+		@apply bg-[url(./pics/tiles/mountain_rail.png)] transform rotate-[-90deg];
+	}
+
+	.tile-mountain-rail-nw {
+		@apply bg-[url(./pics/tiles/mountain_rail.png)] transform rotate-180;
+	}
+
+	.tile-mountain-rail-se {
+		@apply bg-[url(./pics/tiles/mountain_rail.png)];
+	}
+
+	.tile-mountain-rail-sw {
+		@apply bg-[url(./pics/tiles/mountain_rail.png)] transform rotate-90;
+	}
+
+	/* curve rails */
+	.tile-curve-rail-ne {
+		@apply bg-[url(./pics/tiles/curve_rail.png)] transform rotate-[-90deg];
+	}
+
+	.tile-curve-rail-nw {
+		@apply bg-[url(./pics/tiles/curve_rail.png)] transform rotate-180;
+	}
+
+	.tile-curve-rail-se {
+		@apply bg-[url(./pics/tiles/curve_rail.png)];
+	}
+
+	.tile-curve-rail-sw {
+		@apply bg-[url(./pics/tiles/curve_rail.png)] transform rotate-90;
+	}
+}

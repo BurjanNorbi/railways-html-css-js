@@ -1,0 +1,86 @@
+const data = {
+  "easy": [
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Oasis", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}]
+    ],
+    [
+      [{"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Oasis", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+  ],
+  "hard": [
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Oasis", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}],
+      [{"tile": "Mountain", "orientation": "SouthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}],
+      [{"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthEast"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+    [
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthEast"}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Bridge", "orientation": "Horizontal"}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "SouthEast"}, {"tile": "Empty", "orientation": ""}, {"tile": "Oasis", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Mountain", "orientation": "NorthWest"}, {"tile": "Empty", "orientation": ""}, {"tile": "Bridge", "orientation": "Vertical"}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+      [{"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}, {"tile": "Empty", "orientation": ""}],
+    ],
+  ]
+}
